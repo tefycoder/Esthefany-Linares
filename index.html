@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Esthefany Linares - Portafolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/main.css"> 
+	<link rel="stylesheet" type="text/css" href="css/vendor/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor/icomoon.css">
+	<link rel="stylesheet" type="text/css" href="css/vendor/animate.css">
+	<link rel="stylesheet" media="all" href="css/vendor/hover.css">
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+	<link rel="stylesheet" href="css/vendor/remodal/remodal.css">
+	<link rel="stylesheet" href="css/vendor/remodal/remodal-default-theme.css">
+</head>
+<body>
+
+	<header>
+		<div class="nenunav">
+			<ul>
+				<li>
+					 <a href="#contact"  class="line hvr-grow">contacto</a>
+				</li>
+				<li>
+					 <a href="#work" class="line hvr-grow">portafolio</a>
+				</li>
+				<li>
+					 <a href="#skills"  class="line hvr-grow">habilidades</a>
+				</li>
+				<li>
+					<a href="#about"  class="line hvr-grow">sobre mi</a>
+				</li>
+			</ul>
+		</div>	
+	</header>
+	<div class="hide" id="menu">
+
+		<ul class="nav-list">
+			<li>
+				<a href="#home"><img src="img/logo.png" title="home" class="line hvr-grow"></a>
+			</li>
+			<li>
+				<a href="#about" title="about" class="line hvr-grow">sobre mi</a>
+			</li>
+			<li>
+				 <a href="#skills" title="skills" class="line hvr-grow">habilidades</a>
+			</li>
+			<li>
+				 <a href="#work" title="work" class="line hvr-grow">portafolio</a>
+			</li>
+			<li>
+				 <a href="#contact" title="contact" class="line hvr-grow">contacto</a>
+			</li>
+		</ul>
+	</div>
+	<div class="menubar">
+		<span class="icon-th-menu" id="bar" data-click-state=1></span>
+	</div>
+	<div class="social-net">
+		<a href="https://github.com/tefycoder" target="_blank" class="hvr-grow"><span class="icon-github"></span></a>
+		<a href="https://es.pinterest.com/tefylinares/" target="_blank" class="hvr-grow"><span class="icon-pinterest"></span></a>
+		<a href="https://www.linkedin.com/in/esthefany-linares-549915133/" target="_blank" class="hvr-grow"><span class="icon-linkedin"></span></a>
+	</div>
+	<div class="intro" id="home">
+		<div class="logo left">
+			<img src="img/logo.png" alt="logo">	
+		</div>
+		<div class="row">
+			<div class="col s12 m12 l12">
+				<div class="name">
+					<span>Esthefany</span>
+					<div class="t-name">
+						<span>Administradora & Desarrolladora Front end</span>
+					</div>
+				</div>
+				<div class=" col s2 push-s5 arrow-b animated infinite pulse">
+					<a href="#about"><span class="icon-keyboard_arrow_down "></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="about" id="about">
+		<div class="who moveUp">
+		 <h3>SOBRE MI</h3>
+		</div>
+		<div class="row">
+			<div class="col s12 m8 l8 push-m2 push-l2">
+				<div class="t-who">
+				<span class="icon-minus"></span>
+					<p>
+						 Soy Esthefany Linares Administradora y Desarrolladora Web Front end, con gran pasión y entusiasmo por aprender cosas nuevas. Me uní a Laboratoria y en solo 6 meses aprendí Desarrollo Web Front end ¿Suena increíble no? 
+					</p>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="skills" id="skills">
+		<div class="sk">
+			<h3>HABILIDADES</h3>
+		</div>
+		<div class="lista fadeUp">
+			<div class="container">
+				<span class="icon-minus"></span>
+				<div class="row">
+					<div class="col s12 m4 l4">
+						<div class="development">
+							<h4>development</h4>
+							<ul>
+								<li>Desarrollo Front end</li><a data-remodal-target="modal1"><span class="icon-square-plus hvr-shrink"></span></a>
+								<br>
+								<li>Diseño Responsive</li><a data-remodal-target="modal2"><span class="icon-square-plus hvr-shrink"></span></a>
+							</ul>
+						</div>
+					</div>
+					<div class="col s12 m4 l4">
+					  <div class="letras" id="letters"></div>
+					</div>
+					<div class="col s12 m4 l4">
+						<div class="others">
+							<h4>plus</h4>
+							<ul>
+								<li>Metodología Agile</li><a data-remodal-target="modal5"><span class="icon-square-plus hvr-shrink"></span></a><br>
+								<li>Gestion del talento humano</li><a data-remodal-target="modal6"><span class="icon-square-plus hvr-shrink"></span></a><br>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal front end development -->
+	<div class="remodal" data-remodal-id="modal1" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+		<button data-remodal-action="close" class="remodal-close"></button>
+			<h3>front end development</h3>
+			<p>El mundo en el que estuve inmersa los últimos 6 meses y en el que continuaré aprendiendo y mejorando, este portafolio web es una pequeña muestra de lo que soy capaz de hacer. </p>
+			<span class="icon-code"></span><span>HTML5  CSS3  Javascript  jQuery</span>
+		<br>
+	</div>
+	<!-- Modal responsive design -->
+	<div class="remodal" data-remodal-id="modal2" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+		<button data-remodal-action="close" class="remodal-close"></button>
+			<h3>responsive design</h3>
+			<p>Breakpoints y Frameworks CSS se convirtieron en mis aliados al desarrollar productos web adaptables. Además de aplicar tecnologías como Mobile , creando así una experiencia de usuario de calidad.</p>
+			<span class="icon-code"></span> <span>Bootstrap</span> <span>|  Materialize</span>
+		<br>
+	</div>
+	<div class="remodal" data-remodal-id="modal5" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+		<button data-remodal-action="close" class="remodal-close"></button>
+			<h3>Agile</h3>
+			<p>En Laboratoria desarrollé productos y aprendí todos los días bajo esta metodología, dividiendo los proyectos en sprints, haciendo daily stand ups y retrospectivas al final de cada uno.<br>Agile es genial!</p>
+			<span class="icon-lightbulb"></span> <span>Agile classroom</span>
+		<br>
+	</div>	
+	<!-- Modal english language -->
+	<div class="remodal" data-remodal-id="modal6" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+		<button data-remodal-action="close" class="remodal-close"></button>
+			<h3>Gestion del talento humano</h3>
+			<p> Enfocada en integran planes y procesos para dar seguimiento y administración de colaboradores de sus talentos. </p>
+			<span class="icon-messages"></span> <span></span> 
+		<br>
+	</div>
+	
+	<div class="port-section" id="work">
+		<div class="port moveUp">
+			<h3>PORTAFOLIO</h3>
+			<h5>PROYECTOS EN DESARROLLO FRONT END</h5>
+			<span class="icon-minus"></span>
+		</div>
+
+		<div class="portfolio">
+			<div class="row">
+				<a data-remodal-target="modal7">
+					<div id="show-hover" class="col s12 m4 l4">
+						<div class="julliard"></div>
+						<p class="text">Julliard Website</p> 
+						<div class="text-icons">
+							<span class="icon-html-five"></span>
+							<span class="icon-css3"></span>
+							<span>simple grid</span>
+						</div>
+					</div>
+				</a>
+				<a data-remodal-target="modal8">
+					<div id="show-hover" class="col s12 m4 l4">
+						<div class="portafolio"></div>
+						<p class="text">Portafolio website</p>
+						<div class="text-icons">
+							<span class="icon-html-five"></span>
+							<span class="icon-css3"></span>
+							<span>B</span>
+						</div>	
+					</div>
+				</a>
+				<a data-remodal-target="modal9">
+					<div id="show-hover" class="col s12 m4 l4">
+						<p class="text">User testing 360 website</p>
+						<div class="user-testing"></div>
+						<div class="text-icons">
+							<span class="icon-html-five"></span>
+							<span class="icon-css3"></span>
+							<span>B</span>
+						</div>		
+					</div>
+				</a>
+			</div>
+			<div class="row">
+				<a data-remodal-target="modal10">
+					<div id="show-hover" class="col s12 m4 l4">
+						<div class="twitter"></div>
+						<p class="text">Twitter</p>	
+						<div class="text-icons">
+							<span class="icon-html-five"></span>
+							<span class="icon-css3"></span>
+							<span>B</span>
+							<span>vanilla JS</span>
+						</div>			
+					</div>
+				</a>
+				<a data-remodal-target="modal11">
+					<div id="show-hover" class="col s12 m4 l4">
+						<div class="trello"></div>
+						<p class="text">Trello</p>	
+						<div class="text-icons">
+							<span class="icon-html-five"></span>
+							<span class="icon-css3"></span>
+							<span>B</span>
+							<span>vanilla JS</span>
+						</div>	
+					</div>
+				</a>
+				<a data-remodal-target="modal12">
+					<div id="show-hover" class="col s12 m4 l4">
+						<div class="lyft"></div>
+						<p class="text">Lyft</p>
+						<div class="text-icons">
+							<span class="icon-html-five"></span>
+							<span class="icon-css3"></span>
+							<span>JQUERY</span>
+							<span>Materialize</span>
+						</div>						
+					</div>
+				</a>
+			</div>
+		  </div>
+		</div>
+		<!-- Modal Julliard -->
+		<div class="remodal" data-remodal-id="modal7" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<h3>julliard website</h3>
+				<p>Uno de los primeros proyectos de maquetación web realizados durante el bootcamp en Laboratoria, donde investigué sobre el uso de grillas para una mejor estructura. Web site de 4 cuatro vistas desarrollado con HTML5, CSS3 y un sistema de grillas llamado "Simple Grid".</p>
+				<a class="waves-effect waves-light btn" href="" target="_blank"><span class="icon-code"></span> Código</a>
+  				<a class="waves-effect waves-light btn" href="" target="_blank"><span class="icon-device-desktop"></span> Sitio Web</a>
+			<br>
+		</div>
+		<!-- Modal web-portafolio -->
+		<div class="remodal" data-remodal-id="modal8" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<h3><main>....</main></h3>
+				<p>Desarrollé este landing page de un portafolio web como parte de mi aprendizaje en el uso del framework CSS más conocido, Bootstrap. Portafolio web fue desarrollado con HTML5, CSS3 y Bootstrap.</p>
+				<a class="waves-effect waves-light btn" href="" target="_blank"><span class="icon-code"></span> Código</a>
+  				<a class="waves-effect waves-light btn" href="" target="_blank"><span class="icon-device-desktop"></span> Sitio Web</a>
+			<br>
+		</div>
+		<!-- Modal user-testing -->
+		<div class="remodal" data-remodal-id="modal9" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<h3>user testing</h3>
+				<p>En este proyecto aprendí a aplicar y utilizar breakpoints para diseño responsive y mejor experiencia de usuario en cualquier dispositivo. User testing fue desarrollado con HTML5, CSS3 y Bootstrap.</p>
+				<a class="waves-effect waves-light btn" href="" target="_blank"><span class="icon-code"></span> Código</a>
+  				<a class="waves-effect waves-light btn" href="" target="_blank"><span class="icon-device-desktop"></span> Sitio Web</a>
+			<br>
+		</div>
+		<!-- Modal twitter -->
+		<div class="remodal" data-remodal-id="modal10" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<h3>twitter</h3>
+				<p>Primer proyecto desarrollado con Vanilla Javascript. Este proyecto es una réplica y simulación básica de un tweet, mostrando el mensaje, hora del tweet y número de caracteres. Desarrollado con HTML5, CSS3, Bootstrap y vanilla JS. </p>
+				<a class="waves-effect waves-light btn" href="" target="_blank"><span class="icon-code"></span> Código</a>
+  				<a class="waves-effect waves-light btn" href="" target="_blank"><span class="icon-device-desktop"></span> Sitio Web</a>
+			<br>
+		</div>
+		<!-- Modal trello -->
+		<div class="remodal" data-remodal-id="modal11" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<h3>trello</h3>
+				<p>Este proyecto es una réplica y simulación de la herramienta de gestión de proyectos, Trello y algunas de sus funciones básicas como: agregar una lista, añadir tarjeta, arrastrar y soltar tarjetas. Desarrollado con HTML5, CSS3, Bootstrap y vanilla JS. </p>
+				<a class="waves-effect waves-light btn" href="" target="_blank"><span class="icon-code"></span> Código</a>
+  				<a class="waves-effect waves-light btn" href="" target="_blank"><span class="icon-device-desktop"></span> Sitio Web</a>
+			<br>
+		</div>
+		<!-- Modal lyft -->
+		<div class="remodal" data-remodal-id="modal12" data-remodal-options="hashTracking: false, closeOnOutsideClick: true">
+			<button data-remodal-action="close" class="remodal-close"></button>
+				<h3>lyft</h3>
+				<p>Este proyecto es una réplica y simulación de algunas de las funciones de la aplicación móvil de Lyft. El objetivo principal de este proyecto fue aprender y utilizar jQuery, manejo de la API de geolocalización de Google maps, guardar datos de los usuarios y validar campos de formulario. Desarrollado con HTML5, CSS3, Materialize y jQuery.</p>
+				<a class="waves-effect waves-light btn" href="" target="_blank"><span class="icon-code"></span> Código</a>
+  				<a class="waves-effect waves-light btn" href="" target="_blank"><span class="icon-device-desktop"></span> Sitio Web</a>
+			<br>
+		</div>
+	</div>
+	<div class="contact-section" id="contact">
+		<div class="contact fadeRight">
+ 			<h3>CONTACTO</h3>
+ 		</div>
+ 		<span class="icon-minus"></span><br>
+		<span class="call">Celular</span><br>
+		<span class="icon-phone"></span> <span>992056619</span> <br>
+		<span class="icon-paperplane"></span> <span></span>
+		<div class="cv-button">
+			<a class="waves-effect waves-light btn" href="" target="_blank"><span class="icon-download-outline"></span> Descarga mi CV</a>
+		</div>
+	</div>
+	<div class="top">
+		<a class="right" href="#home"><span class="icon-arrow-up"></span></span><span class="right">home</span></a>
+	</div>
+	<script type='text/javascript' src='js/vendor/jquery-3.1.1.js'></script>
+	<script type="text/javascript" src="js/vendor/materialize.min.js"></script>
+	<script src="js/vendor/remodal/remodal.min.js"></script>
+    <script type="text/javascript" src="js/main.js" ></script>    
+	<script src="js/vendor/viewportchecker.js"></script>
+	<script type="text/javascript" src="js/vendor/letters.js" ></script>
+</body>
+</html>
