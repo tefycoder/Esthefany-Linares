@@ -278,7 +278,8 @@ div#menu{
 
 .t-who p{
     padding: 0vh 3vh;
-    text-align: justify;
+    text-align: center;
+    font-size: large;
 }
 
 .skills{
