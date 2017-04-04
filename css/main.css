@@ -141,7 +141,7 @@ span.icon-minus{
 }
 
 .social-net{
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     position: fixed;
     right: 2vh;
     top: 64vh;
@@ -276,7 +276,7 @@ span.call{
 }
 
 .cv-button a{
-    background-color: #321117;
+    background-color: rgba(0, 0, 0, 0.82);
 }
 
 .cv-button a.btn:hover{
@@ -347,7 +347,7 @@ span.call{
 }
 
 .twitter{
-     background-image: url(../img/twitter.jpg);
+     background-image: url(../img/republica.jpg);
      background-position-x: 30%;
      cursor: pointer;
 }
@@ -357,7 +357,7 @@ span.call{
 }
 
 .lyft{
-     background-image: url(../img/lyft.jpg);
+     background-image: url(../img/Carrocomp.jpg);
      background-position-x: 50%;
 }
 
@@ -530,7 +530,7 @@ div.remodal{
 }
 
 div.remodal-overlay{
-    background-color: rgba(56, 22, 22, 0.96);
+    background-color: rgba(0, 0, 0, 0.76);
 }
 
 div.remodal p{
@@ -539,15 +539,15 @@ div.remodal p{
 
 div.remodal h3{
     font-family: Original by fnkfrsh;
-    color: #321117;
+    color: #18af63;
 }
 
 .remodal a{
-    background-color: #321117;
+    background-color: #18af63 ;
 }
 
 .remodal a.btn:hover{
-    background-color: #321117;
+    background-color: rgb(10, 8, 8);
 }
 
 .language{
